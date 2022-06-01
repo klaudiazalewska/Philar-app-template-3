@@ -1,0 +1,434 @@
+body
+{
+    width: 1920px;
+    height: 1080px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content
+{
+    display: flex;
+}
+
+.left
+{
+    width: 720px;
+    height: 1080px;
+    background-color: #0F183E;
+    border-right: 1px solid #003577;
+    display: flex;
+}
+
+p1
+{
+    margin-left: 340px;
+    color: #fff;
+    font-size: 12px;
+}
+
+p2
+{
+    margin-left: 340px;
+    color: #fff;
+    font-size: 12px;
+}
+
+ul
+{
+    margin-top: 80px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 120px;
+}
+
+.leftnav a
+{
+    text-decoration: none;
+    color: #3381E1;
+}
+
+ul > li
+{
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.leftnav > ul > li:first-child a
+{
+    font-weight: 500;
+    color: #c2c2c2;
+    font-size: 14px;
+}
+
+
+.leftnav > ul > .account a
+{
+    color:#65FFCB;
+}
+
+p3
+{
+    color: #FF395B;
+    font-weight: 900;
+    margin-left: 340px;
+}
+
+.right
+{
+    width: 1199px;
+    height: 1080px;
+    background-color: #101B48;
+    display: flex;
+}
+
+.main
+{
+    width: 520px;
+    margin-left: 50px;
+    height:max-content;
+    padding-top: 130px;
+
+}
+
+p4
+{
+    color:#fff;
+    font-size: 22px;
+    font-weight:900;
+}
+
+.information
+{
+    background-color: #0F183E;
+    border: 0.5px solid #003577;
+    border-radius: 5px;
+    width: 520px;
+    height: 261px;
+    margin-top: 20px;
+}
+
+.user
+{
+    display: flex;
+}
+
+.name
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+p5
+{
+    color: #fff;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+p6
+{
+    color: #3381E1;
+    font-size: 22px;
+}
+
+.login
+{
+    width: 464px;
+    height: 92px;
+    background-color: #101B48;
+    border: 1px solid #003577;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.data 
+{
+    margin-top: 20px;
+}
+
+.userdata
+{
+
+    margin-top: 15px;
+}
+
+p7
+{
+    color: #C2C2C2;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+p8
+{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.password
+{
+    height: 143px;
+    width: 520px;
+    border-top: 1px solid #003577;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+p9
+{
+    color: #C2C2C2;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.change
+{
+    width: 190px;
+    height: 35px;
+    background-color: #003577;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.change a:link
+{
+    width: 190px;
+    height: 35px;
+    background-color: #003577;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.change a:hover
+{
+    width: 190px;
+    height: 35px;
+    background-color: #003577;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.change a:visited
+{
+    width: 190px;
+    height: 35px;
+    background-color: #003577;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.github
+{
+    height: 143px;
+    width: 520px;
+    border-top: 1px solid #003577;
+    margin-top: -20px;
+    padding-top: 30px;
+}
+
+p10
+{
+    color: #ff395b;
+    margin-right: 1px;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+p11
+{
+    color: #fff;
+    margin-right: 1px;
+    font-size: 12px;
+}
+
+p12
+{
+    color: #3381E1;
+    font-size: 12px;
+}
+
+.connect
+{
+    width: 190px;
+    height: 35px;
+    background-color: #003577;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.connect a:link
+{
+    width: 190px;
+    height: 35px;
+    background-color: #003577;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.connect a:hover
+{
+    width: 190px;
+    height: 35px;
+    background-color: #003577;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.connect a:visited
+{
+    width: 190px;
+    height: 35px;
+    background-color: #003577;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete-account
+{
+    height: 143px;
+    width: 520px;
+    border-top: 1px solid #003577;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.delete
+{
+    width: 190px;
+    height: 35px;
+    background-color: #ff395b;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.delete a:link
+{
+    width: 190px;
+    height: 35px;
+    background-color: #ff395b;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete a:hover
+{
+    width: 190px;
+    height: 35px;
+    background-color: #ff395b;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete a:visited
+{
+    width: 190px;
+    height: 35px;
+    background-color: #ff395b;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 18px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.x
+{
+    width:50px;
+    height:40px;
+    background-color: #003577;
+    border-radius: 180px;
+    text-align:center;
+    color: #fff;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+p13
+{
+    font-weight: 600;
+    font-size: 20px;
+}
